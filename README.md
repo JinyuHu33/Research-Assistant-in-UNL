@@ -39,7 +39,7 @@ Calculated the index price for feeder cattle by its Type.Code according to the m
                                                                                                           Type.Code == "heifer.wt.2", index.price*1
                                                                                                           Type.Code == "heifer.wt.1", index.price*0.9
                                                                                                           ...
-7.Subsidy_rate_change.R:
+7.Subsidy_rate_change_modeling.R:
 
 
 Identified changes in subsidy rates for LRP for Feeder Cattle. LRP data from 2014 to 2018 were leveraged to estimate monthly logit models to determine the likelihood of outcomes under the previous rate and the new structure; the result shows the new subsidy structure appears to be helpful for producers by lowering the cost of LRP.
