@@ -15,7 +15,7 @@ memory.limit(size = 60000)
 ############################################################################
 #load the data lrp data merged with feeder cattle index and clean a bit
 ############################################################################
-setwd("C:/Users/edennis8/Dropbox/Nebraska/students/hu_jinyu/Out_Data")
+setwd("...")
 
 join_data_2002.2022 <- readRDS("./Feeder_cattle_index_join.RData")
 
