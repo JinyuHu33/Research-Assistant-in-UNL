@@ -9,10 +9,10 @@ library(str2str)
 ############################################################################
 #load the data
 ############################################################################
-setwd("C:/Users/edennis8/Dropbox/Nebraska/students/hu_jinyu/Data/cash_prices")
+setwd("...")
 
 
-direct_cattle_price <- read.csv("./Datamart-Export_LM_CT150-Detail_20220613_083310.csv")
+direct_cattle_price <- read.csv(".../Datamart-Export_LM_CT150-Detail_20220613_083310.csv")
 
 # first step , filter the data to STEER AND LIVE FOB, 35 - 65% Choice
 
