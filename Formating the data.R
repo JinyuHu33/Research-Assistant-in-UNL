@@ -25,7 +25,7 @@ memory.limit(size = 60000)
 #Run data from Lrp_2014_2022
 #################
 
-setwd("C:/Users/edennis8/Dropbox/Nebraska/students/hu_jinyu/Data/Lrp_2014_2022")
+setwd(".../Data/Lrp_2014_2022")
 temp <- list.files(pattern = '*.csv')
 data_2014.2022 <- lapply(temp, read.csv)
 
@@ -33,7 +33,7 @@ data_2014.2022 <- lapply(temp, read.csv)
 #Run data from Archive 
 #################
 
-setwd("C:/Users/edennis8/Dropbox/Nebraska/students/hu_jinyu/Data/lrp_archive")
+setwd(".../Data/lrp_archive")
 temp <- list.files(pattern = '*.csv')
 data_2002.2013 <- lapply(temp, read.csv)
 
