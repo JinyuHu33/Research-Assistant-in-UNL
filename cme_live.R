@@ -12,7 +12,7 @@ library(fitdistrplus)
 #load data
 ############################################################################
 
-# setwd("C:/Users/edennis8/Dropbox/Nebraska/students/elsner_daniel/lrp_vs_cme/Job with Elliott")
+# setwd("...")
 
 ##options - put
 LC.Put.Options.2003.09 <- readxl::read_xlsx("./Data/cme_LC/LC Put Options 2003-09.xlsx", sheet = 1, skip = 2)
